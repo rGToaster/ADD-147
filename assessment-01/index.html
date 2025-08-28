@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <script>
+        function changeTextHead() {
+            document.getElementById("myParagraph").innerText = "This text was changed by the function in the HEAD!";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>My Interactive Page</h1>
+
+
+    <img id="myImage" src="images/blood-oranges-7033738_1280.jpg" alt="Placeholder Image">
+
+    <br><br>
+
+    <button onclick="document.getElementById('myImage').src='images/blood-oranges-7033738_1280'">Show Image 1</button>
+    <button onclick="document.getElementById('myImage').src='images/oranges-19.jpg'">Show Image 2</button>
+    <button onclick="document.getElementById('myImage').src='images/oranges-42.jpg'">Show Image 3</button>
+
+    <br><br>
+
+    <p id="myParagraph">This text will be replaced when the page loads.</p>
+
+    <button onclick="changeTextHead()">Change Text (Head Script)</button>
+    <button onclick="changeTextExternal()">Change Text (External JS)</button>
+
+    <br><br>
+
+
+    <button onclick="document.getElementById('myImage').style.width='300px'">Resize Image</button>
+    <button onclick="document.getElementById('myParagraph').style.color='red'">Change Text Color</button>
+
+    <br><br>
+
+
+    <button onclick="document.getElementById('myImage').style.display='block'">Show Image</button>
+    <button onclick="document.getElementById('myImage').style.display='none'">Hide Image</button>
+
+
+    <script>
+        window.onload = function () {
+            document.getElementById("myParagraph").innerText = "This text was added when the page loaded!";
+        }
+    </script>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
