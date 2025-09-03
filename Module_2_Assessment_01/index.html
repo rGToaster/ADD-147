@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Basics, Math, Variables</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="scripts/calculate.js"></script>
+</head>
+
+<body onload="getData()">
+    <header>Form Basics, Math, Variables</header>
+
+    <main class="container">
+        <form>
+            <div class="top">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="fname"><br>
+            </div>
+            <div class="food" id="sandwiches">
+                <h3>Sandwiches</h3>
+                <label for="numHamburger">Number of Hamburgers:</label>
+                <input type="text" id="numHamburger" /> <br />
+                <label for="numBLT">Number of BLTs:</label>
+                <input type="text" id="numBLT" /> <br />
+                <label for="numSub">Number of Subs:</label>
+                <input type="text" id="numSub" /> <br />
+                <label for="numHotdog">Number of Hotdogs:</label>
+                <input type="text" id="numHotdog" /> <br />
+                <label for="numSandwich">Number of Sandwiches:</label>
+                <input type="text" id="numSandwich" /> <br />
+            </div>
+            <div class="food" id="drinks">
+                <h3>Drinks</h3>
+                <label for="numSoda">Number of Sodas:</label>
+                <input type="text" id="numSoda" /> <br />
+                <label for="numWater">Number of Waters:</label>
+                <input type="text" id="numWater" /> <br />
+                <label for="numShake">Number of Shakes:</label>
+                <input type="text" id="numShake" /> <br />
+                <label for="numEnergy">Number of Energy drinks:</label>
+                <input type="text" id="numEnergy" /> <br />
+                <label for="numBeer">Number of Beers:</label>
+                <input type="text" id="numBeer" /> <br />
+            </div>
+            <div class="food" id="sides">
+                <h3>Sides</h3>
+                <label for="numFries">Number of Fries:</label>
+                <input type="text" id="numFries" /> <br />
+                <label for="numChip">Number of Chips:</label>
+                <input type="text" id="numChip" /> <br />
+                <label for="numCake">Number of Cakes:</label>
+                <input type="text" id="numCake" /> <br />
+                <label for="numCookie">Number of Cookies:</label>
+                <input type="text" id="numCookie" /> <br />
+                <label for="numCones">Number of ice cream cones:</label>
+                <input type="text" id="numCones" /> <br />
+            </div>
+
+            <div class="bottom">
+                <button type="button" onclick="getTotal()">Get Total!</button>
+                <h3>Total:</h3>
+                <p id="Total"></p>
+                <p id="sandwichesTotal"></p>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
