@@ -83,13 +83,18 @@ function myMath() {
 
 function assignments() {
     // create statements demonstrating the use of each assignment type
-    var xequals = 10
-    document.getElementById("equals").innerHTML = "x = 10" + "x = " + xequals;
+    var x = 10
+    document.getElementById("equals").innerHTML = "x = 10 " + " x = " + x;
     x += 1
-    document.getElementById("plus_equals").innerHTML = "x += 1" + "x = " + x;
-    let x = 10;
-    x -= 5;
-    document.getElementById("minus_equals").innerHTML = "Value of x is: " + x;
+    document.getElementById("plus_equals").innerHTML = "x += 1 " + "Value of x is: " + x;
+    x -= 1
+    document.getElementById("minus_equals").innerHTML = "x -= 1 " + "Value of x is: " + x;
+    x *= 1
+    document.getElementById("times_equals").innerHTML = "x *= 1 " + "Value of x is: " + x;
+    x /= 1
+    document.getElementById("divide_equals").innerHTML = "x *= 1 " + "Value of x is: " + x;
+    x %= 1
+    document.getElementById("modulus_equals").innerHTML = "x %= 1 " + "Value of x is: " + x;
 }
 
 function dataTypes() {
@@ -97,5 +102,6 @@ function dataTypes() {
     // index page and display them in the Data Types section
     const cats = ["Siamese", "Main coon", "Tabby"];
     document.getElementById("array").innerHTML = cats;
-
+    const person = { firstName: "Anthony", lastName: "Cervantes" };
+    document.getElementById("object").innerHTML = person.firstName + "" + person.lastName;
 }
