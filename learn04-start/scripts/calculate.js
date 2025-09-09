@@ -8,6 +8,22 @@ function addDate() {
 
 }
 
+let numRooms;
+function showRooms() {
+    numRooms = document.getElementById("rooms").value;
+    if (numRooms == 1) {
+        document.getElementById(room2).style = "display:none";
+        document.getElementById(room3).style = "display:none";
+    }
+    elseif(numRooms == 2){
+        document.getElementById(room2).style = "display:block";
+        document.getElementById(room3).style = "display:none";
+    }
+    else (numRooms == 3){
+        document.getElementById(room2).style = "display:block";
+        document.getElementById(room3).style = "display:block";
+    }
+}
 function estimate() {
     let name = document.getElementById("name").value;
     let length = parseFloat(document.getElementById("rm1length").value);
