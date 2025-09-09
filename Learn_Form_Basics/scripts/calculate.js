@@ -30,6 +30,7 @@ function estimate() {
     let length = parseFloat(document.getElementById("rm1length").value);
     let width = parseFloat(document.getElementById("rm1width").value);
     let height = parseFloat(document.getElementById("rm1height").value);
+    // calculate total cost 
     let totalSqFt = ((length * height * 2) + (length * width * 2));
     let cost = (totalSqFt * .65);
     document.getElementById("rm1cost").value = cost;
