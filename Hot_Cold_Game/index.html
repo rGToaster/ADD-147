@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot and Cold Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body onload="setup()">
+    <div class="container">
+        <h1>Hot/Cold Number Guessing Game</h1>
+        <p>I’m thinking of a number between <b>1</b> and <b>1000</b>. Can you guess it?</p>
+
+        <form id="guessForm">
+            <input type="number" id="guessInput" min="1" max="1000" required>
+            <button type="submit">Guess</button>
+        </form>
+
+        <div id="feedback"></div>
+        <p id="history"></p>
+
+    </div>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
