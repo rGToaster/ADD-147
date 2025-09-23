@@ -19,7 +19,7 @@ function calculate() {
         case 9: chi = "Snake"; break;
         case 10: chi = "Horse"; break;
         case 11: chi = "Goat"; break;
-        default: chi = "Please enter a valid month";
+        default: chi = "Please enter a valid year";
     }
 
     if ((month == 1 && date >= 20) || (month == 2 && date <= 18)) {
