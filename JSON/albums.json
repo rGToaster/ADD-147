@@ -1,0 +1,42 @@
+[
+    {
+        "album": "Abbey Road",
+        "artist": "The Beatles"
+    },
+    {
+        "album": "Thriller",
+        "artist": "Michael Jackson"
+    },
+    {
+        "album": "Back in Black",
+        "artist": "AC/DC"
+    },
+    {
+        "album": "Rumours",
+        "artist": "Fleetwood Mac"
+    },
+    {
+        "album": "The Dark Side of the Moon",
+        "artist": "Pink Floyd"
+    },
+    {
+        "album": "Hotel California",
+        "artist": "Eagles"
+    },
+    {
+        "album": "Led Zeppelin IV",
+        "artist": "Led Zeppelin"
+    },
+    {
+        "album": "21",
+        "artist": "Adele"
+    },
+    {
+        "album": "Born to Run",
+        "artist": "Bruce Springsteen"
+    },
+    {
+        "album": "Nevermind",
+        "artist": "Nirvana"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "album": "Abbey Road",
+        "songs": [
+            "Come Together",
+            "Something",
+            "Maxwell's Silver Hammer",
+            "Oh! Darling",
+            "Octopus's Garden"
+        ]
+    },
+    {
+        "album": "Thriller",
+        "songs": [
+            "Wanna Be Startin' Somethin'",
+            "Thriller",
+            "Beat It",
+            "Billie Jean",
+            "Human Nature"
+        ]
+    },
+    {
+        "album": "Rumours",
+        "songs": [
+            "Dreams",
+            "Go Your Own Way",
+            "The Chain",
+            "Don't Stop",
+            "You Make Loving Fun"
+        ]
+    },
+    {
+        "album": "Back in Black",
+        "songs": [
+            "Hells Bells",
+            "Shoot to Thrill",
+            "Back in Black",
+            "You Shook Me All Night Long",
+            "Rock and Roll Ain't Noise Pollution"
+        ]
+    },
+    {
+        "album": "The Dark Side of the Moon",
+        "songs": [
+            "Speak to Me",
+            "Breathe",
+            "Time",
+            "Money",
+            "Us and Them"
+        ]
+    }
+]
