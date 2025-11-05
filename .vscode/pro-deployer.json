@@ -17,13 +17,14 @@
 		{
 			"name": "My FTP",
 			"type": "ftp",
-			"host": "acervantes.mccweb.net",
+			"host": "ftp.acervantes.mccweb.net",
 			"port": 21,
-			"user": "acervantes@mccweb.net",
+			"user": "acervantes",
 			"password": "Soccershot54321",
 			"dir": "/public_html",
 			"baseDir": "C:/Users/tonyc/OneDrive/Desktop/ADD-147",
-			"secure": false,
+			"secure": "explicit",
+			"passive": true,
 			"timeout": 30000,
 			"transferDataType": "binary"
 		}
