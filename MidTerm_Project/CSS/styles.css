@@ -47,7 +47,7 @@ h1 {
 /* Choices buttons */
 .choices button {
     background-color: #007acc;
-    color: black;
+    color: white;
     border: none;
     padding: 0.75rem 1rem;
     margin: 0.5rem;
@@ -83,7 +83,7 @@ h1 {
 /* Reset button */
 .reset {
     background-color: #ff704d;
-    color: #fff;
+    color: black;
     border: none;
     padding: 0.75rem 1.25rem;
     border-radius: 0.5rem;
