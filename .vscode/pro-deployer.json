@@ -20,7 +20,7 @@
 			"host": "acervantes.mccweb.net",
 			"port": 21,
 			"user": "acervantes",
-			"password": "Soccershot54321",
+			"password": "${env:FTP_PASSWORD}",
 			"dir": "/public_html",
 			"baseDir": "C:/Users/tonyc/OneDrive/Desktop/ADD-147",
 			"transferDataType": "binary"
