@@ -3,29 +3,17 @@
 	"enableQuickPick": true,
 	"uploadOnSave": true,
 	"autoDelete": true,
-	"checkGitignore": false,
+	"checkGitignore": true,
 	"activeTargets": [
-		"My SFTP"
+		"My FTP"
 	],
 	"concurrency": 5,
 	"ignore": [
 		".git/**/*",
-		".vscode/**/*"
+		".vscode/**/*",
+		"node_modules/**/*"
 	],
-	"include": [],
 	"targets": [
-		{
-			"name": "My SFTP",
-			"type": "sftp",
-			"host": "acervantes.mccweb.net",
-			"port": 22,
-			"user": "acervantes",
-			"password": "Soccershot54321",
-			"dir": "/public_html",
-			"baseDir": "/",
-			"privateKey": null,
-			"passphrase": null
-		},
 		{
 			"name": "My FTP",
 			"type": "ftp",
@@ -34,7 +22,7 @@
 			"user": "acervantes",
 			"password": "Soccershot54321",
 			"dir": "/public_html",
-			"baseDir": "/",
+			"baseDir": "C:/Users/tonyc/OneDrive/Desktop/ADD-147",
 			"transferDataType": "binary"
 		}
 	]
